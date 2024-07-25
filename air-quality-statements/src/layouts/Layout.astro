@@ -1,0 +1,37 @@
+---
+import "@bcgov/design-tokens/css/variables.css";
+import "@bcgov/bc-sans/css/BC_Sans.css";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+
+const { title } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" href="/favicon.ico" />
+    <title>{title}</title>
+  </head>
+  <style>
+    body {
+      font-family: "BC Sans";
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    main {
+      padding: 1rem;
+    }
+  </style>
+  <body>
+    <Header titleElement="h3" title="Air Quality Statements" client:only='react'/>
+    <main id="main-content" style="min-height: 35vh;">
+      <article>
+        <slot /> <!-- your content is injected here -->
+      </article>
+    </main>
+    <Footer client:only='react'/>
+  </body>
+</html>

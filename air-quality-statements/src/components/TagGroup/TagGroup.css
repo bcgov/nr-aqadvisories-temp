@@ -1,0 +1,15 @@
+.bcds-react-aria-TagGroup {
+  color: var(--typography-color-primary);
+  font: var(--typography-regular-small-body);
+}
+
+.bcds-react-aria-TagGroup--Label,
+.bcds-react-aria-TagGroup--Text-description,
+.bcds-react-aria-TagGroup--Text-error {
+  display: block;
+  padding: var(--layout-padding-xsmall) var(--layout-padding-none);
+}
+
+.bcds-react-aria-TagGroup--Text-error {
+  color: var(--typography-color-danger);
+}

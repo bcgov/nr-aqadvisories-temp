@@ -1,0 +1,119 @@
+.bcds-react-aria-Button {
+  border: none;
+  border-radius: var(--layout-border-radius-medium);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--layout-padding-small);
+  font: var(--typography-regular-body);
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.bcds-react-aria-Button[data-disabled] {
+  cursor: not-allowed;
+}
+.bcds-react-aria-Button[data-focused] {
+  outline: solid var(--layout-border-width-medium)
+    var(--surface-color-border-active);
+  outline-offset: var(--layout-margin-hair);
+}
+
+/* Icon button */
+.bcds-react-aria-Button.icon {
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* Sizes */
+.bcds-react-aria-Button.small {
+  min-height: 32px;
+}
+.bcds-react-aria-Button.small.icon {
+  padding: unset;
+  height: 32px;
+  width: 32px;
+  min-width: 32px;
+}
+.bcds-react-aria-Button.medium {
+  min-height: 40px;
+}
+.bcds-react-aria-Button.medium.icon {
+  padding: unset;
+  height: 40px;
+  width: 40px;
+  min-width: 40px;
+}
+
+/* Variant - Primary */
+.bcds-react-aria-Button.primary {
+  background: var(--surface-color-primary-button-default);
+  color: var(--icons-color-primary-invert);
+}
+.bcds-react-aria-Button.primary.danger {
+  background-color: var(--surface-color-primary-danger-button-default);
+}
+.bcds-react-aria-Button.primary[data-disabled] {
+  background-color: var(--surface-color-primary-danger-button-disabled);
+  color: var(--typography-color-disabled);
+}
+.bcds-react-aria-Button.primary[data-hovered] {
+  background-color: var(--surface-color-primary-button-hover);
+}
+.bcds-react-aria-Button.primary.danger[data-hovered] {
+  background-color: var(--surface-color-primary-danger-button-hover);
+}
+
+/* Variant - Secondary */
+.bcds-react-aria-Button.secondary {
+  background-color: var(--surface-color-secondary-button-default);
+  border: 1px solid var(--surface-color-border-dark);
+  color: var(--typography-color-primary);
+}
+.bcds-react-aria-Button.secondary.danger {
+  border-color: var(--support-border-color-danger);
+  color: var(--surface-color-primary-danger-button-default);
+}
+.bcds-react-aria-Button.secondary[data-disabled] {
+  background-color: var(--surface-color-secondary-button-disabled);
+  border-color: var(--surface-color-border-default);
+  color: var(--typography-color-disabled);
+}
+.bcds-react-aria-Button.secondary[data-hovered] {
+  background-color: var(--surface-color-secondary-button-hover);
+}
+.bcds-react-aria-Button.secondary.danger[data-hovered] {
+  background-color: var(--support-surface-color-danger);
+}
+
+/* Variant - Tertiary */
+.bcds-react-aria-Button.tertiary {
+  background-color: var(--surface-color-tertiary-button-default);
+  color: var(--typography-color-primary);
+}
+.bcds-react-aria-Button.tertiary.danger {
+  color: var(--surface-color-primary-danger-button-default);
+}
+.bcds-react-aria-Button.tertiary[data-disabled] {
+  background-color: var(--surface-color-tertiary-button-default);
+  color: var(--typography-color-disabled);
+}
+.bcds-react-aria-Button.tertiary[data-hovered] {
+  background-color: var(--surface-color-tertiary-button-hover);
+}
+.bcds-react-aria-Button.tertiary.danger[data-hovered] {
+  background-color: var(--support-surface-color-danger);
+}
+
+/* Variant - Link */
+.bcds-react-aria-Button.link {
+  background-color: var(--surface-color-tertiary-button-default);
+  color: var(--typography-color-link);
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+}
+.bcds-react-aria-Button.link.danger {
+  color: var(--surface-color-primary-danger-button-default);
+}
+.bcds-react-aria-Button.link[data-disabled] {
+  color: var(--typography-color-disabled);
+}

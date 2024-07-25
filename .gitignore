@@ -1,0 +1,7 @@
+### Astro template
+# Gitignore template for Astro projects
+# Ignore content collection generated files
+.astro
+dist
+node_modules
+
