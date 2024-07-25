@@ -23,7 +23,6 @@ jobs:
         with:
           node-version: "20"
           cache: "npm"
-          cache-dependency-path: "air-quality-statements/package-lock.json"
       - name: Install
         working-directory: air-quality-statements
         shell: "bash"
