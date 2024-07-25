@@ -27,7 +27,7 @@ jobs:
       - name: Install
         working-directory: air-quality-statements
         shell: "bash"
-        run: npm ci
+        run: npm install
       - name: Build
         shell: "bash"
         working-directory: air-quality-statements
