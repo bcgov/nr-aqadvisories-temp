@@ -30,7 +30,6 @@ jobs:
         shell: "bash"
         working-directory: air-quality-statements
         run: |
-          export BASE_URL="/nr-aqadvisories-temp/${{github.event.number}}"
           npm run build
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
