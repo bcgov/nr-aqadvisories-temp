@@ -3,7 +3,7 @@ import "@bcgov/design-tokens/css/variables.css";
 import "@bcgov/bc-sans/css/BC_Sans.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-
+import Search from "astro-pagefind/components/Search";
 const { title } = Astro.props;
 ---
 
@@ -26,7 +26,7 @@ const { title } = Astro.props;
     }
   </style>
   <body>
-    <Header titleElement="h3" title="Air Quality Statements"/>
+    <Header titleElement="h3" title="Air Quality Statements" ><Search id="search" className="pagefind-ui" uiOptions={{ showImages: false }} /></Header>
     <main id="main-content" style="min-height: 35vh;">
       <article>
         <slot /> <!-- your content is injected here -->
