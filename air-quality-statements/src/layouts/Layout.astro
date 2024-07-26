@@ -26,12 +26,12 @@ const { title } = Astro.props;
     }
   </style>
   <body>
-    <Header titleElement="h3" title="Air Quality Statements" client:only='react'/>
+    <Header titleElement="h3" title="Air Quality Statements"/>
     <main id="main-content" style="min-height: 35vh;">
       <article>
         <slot /> <!-- your content is injected here -->
       </article>
     </main>
-    <Footer client:only='react'/>
+    <Footer/>
   </body>
 </html>
