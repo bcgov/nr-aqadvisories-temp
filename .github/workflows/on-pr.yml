@@ -30,6 +30,7 @@ jobs:
         shell: "bash"
         working-directory: air-quality-statements
         run: |
+          export BASE_URL="/nr-aqadvisories-temp/"
           npm run build
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
