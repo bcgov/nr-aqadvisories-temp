@@ -32,6 +32,5 @@ jobs:
     secrets:
       oc_namespace: ${{ secrets.OC_NAMESPACE }}
       oc_token: ${{ secrets.OC_TOKEN }}
-      oc_server: ${{ vars.OC_SERVER }}
     with:
       environment: dev
