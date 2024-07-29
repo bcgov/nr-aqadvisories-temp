@@ -14,12 +14,16 @@
 		}
 		level info
 	}
-	encode gzip
-
-	handle {
-		root * /app/dist
-		file_server
-	}
+	root * /app/dist
+    encode zstd gzip
+    file_server
+    @spa_router {
+        not path /api/* /env.js
+        file {
+            try_files {path} /index.html
+        }
+    }
+    rewrite @spa_router {http.matchers.file.relative}
 	header {
 		X-Frame-Options "SAMEORIGIN"
 		X-XSS-Protection "1;mode=block"
