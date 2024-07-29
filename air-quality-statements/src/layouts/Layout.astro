@@ -4,15 +4,17 @@ import "@bcgov/bc-sans/css/BC_Sans.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Search from "astro-pagefind/components/Search";
+import { ViewTransitions } from 'astro:transitions';
 const { title } = Astro.props;
 ---
 
-<html lang="en">
+<html lang="en" transition:animate="fade">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" href="/favicon.ico" />
     <title>{title}</title>
+
   </head>
   <style>
     body {
@@ -26,7 +28,7 @@ const { title } = Astro.props;
     }
   </style>
   <body>
-    <Header titleElement="h3" title="Air Quality Statements" ><Search id="search" className="pagefind-ui" uiOptions={{ showImages: false }} /></Header>
+    <Header titleElement="h3" title="Air Quality Statements" >    <ViewTransitions /><Search id="search" className="pagefind-ui" uiOptions={{ showImages: false }} /></Header>
     <main id="main-content" style="min-height: 35vh;">
       <article>
         <slot /> <!-- your content is injected here -->
