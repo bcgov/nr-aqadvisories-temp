@@ -10,7 +10,7 @@ RUN npm i --ignore-scripts && \
 FROM caddy:2.7-alpine
 
 # Copy static files and config
-COPY --from=build /app/build /app/dist
+COPY --from=build /app/dist /app/dist
 COPY Caddyfile /etc/caddy/Caddyfile
 
 # Packages and caddy format
