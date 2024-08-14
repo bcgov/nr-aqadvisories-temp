@@ -4,15 +4,22 @@ import Layout from '../layouts/Layout.astro';
 const baseURL = import.meta.env.BASE_URL;
 ---
 
-<Layout title="Air Quality Statements">
-  <nav>
-    <ul>
-      <li><a href=`${baseURL}2024-07-25.html`>2024-07-25</a></li>
-      <li><a href=`${baseURL}2024-07-27.html`>2024-07-27</a></li>
-    </ul>
-  </nav>
-  <div class="topicMain__container"><div dir="ltr" class="sc-690ca30c-0 cmrsaE"><div class="pageTitle__container"><div class="pageTitle__content"><div class="pageTitle__title"><h1>Air quality advisories</h1></div></div></div></div><span class="last_Updated_Text"><img src="/icons/last-updated-star.svg" alt=""> <!-- -->Last updated on August 13, 2024</span><div class="topicContent__main"><div id="body" class="styled-h2"><h2 class="bc_h2"><strong>Issued advisories<a id="IssuedAdvisories" name="IssuedAdvisories"></a></strong></h2>
 
+<link rel="stylesheet" href="https://www2.gov.bc.ca/_next/static/css/bda850a4f13fb66f.css" data-n-g="">
+
+
+<Layout title="Air Quality Statements">
+  <div id='default-sidebar class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
+    <nav class="h-full px-3 py-4 overflow-y-auto">
+      <ul class="space-y-2 font-medium">
+        <li><a href=`${baseURL}2024-07-25.html`>2024-07-25</a></li>
+        <li><a href=`${baseURL}2024-07-27.html`>2024-07-27</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="topicMain__container">
+    <div dir="ltr" class="sc-690ca30c-0 cmrsaE">
+      <div class="pageTitle__container"><div class="pageTitle__content"><div class="pageTitle__title"><h1>Air quality advisories</h1></div></div></div></div><span class="last_Updated_Text"><img src="/icons/last-updated-star.svg" alt=""> <!-- -->Last updated on August 13, 2024</span><div class="topicContent__main"><div id="body" class="styled-h2"><h2 class="bc_h2"><strong>Issued advisories<a id="IssuedAdvisories" name="IssuedAdvisories"></a></strong></h2>
 <div class="responsive-table-wrapper"><table border="1" cellpadding="3" cellspacing="0" style="width:100%">
 	<tbody>
 		<tr>
