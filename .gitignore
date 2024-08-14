@@ -1,0 +1,12 @@
+### Astro template
+# Gitignore template for Astro projects
+# Ignore content collection generated files
+.astro
+dist
+node_modules
+.idea
+air-quality-statements/.astro
+air-quality-statements/dist
+air-quality-statements/node_modules
+air-quality-statements/.idea
+

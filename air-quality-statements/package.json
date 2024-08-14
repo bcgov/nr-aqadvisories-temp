@@ -1,0 +1,27 @@
+{
+  "name": "air-quality-statements",
+  "type": "module",
+  "version": "0.0.1",
+  "author": "NRIDS",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "build_windows": "SET BASE_URL=/112/aqs && npm run build"
+  },
+  "dependencies": {
+    "@astrojs/react": "^3.0.0",
+    "@bcgov/bc-sans": "^2.1.0",
+    "@bcgov/design-tokens": "3.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "astro": "^4.0.0",
+    "astro-pagefind": "^1.6.0",
+    "react": "^18.0.0",
+    "react-aria-components": "1.2.1",
+    "react-dom": "^18.0.0"
+  }
+}

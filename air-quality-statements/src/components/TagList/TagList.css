@@ -1,0 +1,14 @@
+.bcds-react-aria-TagList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--layout-padding-small);
+  width: fit-content;
+}
+
+.bcds-react-aria-TagList.horizontal {
+  flex-direction: row;
+}
+
+.bcds-react-aria-TagList.vertical {
+  flex-direction: column;
+}
