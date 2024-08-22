@@ -1,0 +1,11 @@
+<nav>
+  <h2>Sidebar</h2>
+
+  {% for post in site.posts %}
+    <ul>
+      <li>
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} {{ post.title }}</a>
+      </li>
+    </ul>
+  {% endfor %}
+</nav>
