@@ -9,14 +9,15 @@ website:
   repo-url: https://github.com/quarto-dev/quarto-demo
   repo-actions: [edit, issue]  
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - measuring.qmd
+    search: true
   sidebar:
     style: "docked"
     search: true
-    contents: statements/*
+    contents:
+      - href: index.qmd
+        text: Air quality advisories
+      - href: measuring.qmd
+        text: How we measure
 
 format:
   html:
