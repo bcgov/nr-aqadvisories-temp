@@ -8,7 +8,13 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 ## Issued advisories
 
+| Location | Advisory Type        | PDF | HTML | Status | Date         |
+|:---------|:---------------------|:---:|:----:|:-------|:-------------|
+|          | Smoky Skies Bulletin | [PDF](bulletins/2024-08-21-smoky-skies-issue.pdf) | [HTML](bulletins/2024-07-25-smoky-skies-issue.html) | Ended  | Aug 23, 2024 |
+
 ## Current Smoky Skies Bulletin map
+
+There are currently no advisories in place.
 
 ## About air quality advisories
 
