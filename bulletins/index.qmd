@@ -1,7 +1,8 @@
 ---
-title: "Smokey Skies Bulletin"
+title: "Smoky Skies Bulletins"
 date: 2024-08-21
 ---
 
+Test date 1
 [PDF](2024-08-21-smoky-skies-issue.pdf)
 [HTML](2024-07-25-smoky-skies-issue.html)
