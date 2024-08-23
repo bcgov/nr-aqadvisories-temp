@@ -15,7 +15,7 @@ website:
     style: "docked"
     search: true
     contents:
-      - section: "Air quality advisories"
+      - section: "Air advisories"
         href: index.qmd
         contents: 
           - bulletins/bulletin_history.qmd
