@@ -18,7 +18,7 @@ website:
       - section: "Air quality advisories"
         href: index.qmd
         contents: 
-          - bulletins/index.qmd
+          - bulletins/bulletin_history.qmd
       - href: measuring.qmd
         text: How we measure
 
