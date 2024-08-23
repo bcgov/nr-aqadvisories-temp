@@ -1,7 +1,26 @@
 ---
-title: "Air Quality Statements"
+title: "Air quality advisories"
 ---
 
-This is a Quarto website.
+This is a demostration of a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+## Issued advisories
+
+## Current Smoky Skies Bulletin map
+
+## About air quality advisories
+
+An air quality advisory is issued when pollutant concentrations approach or exceed predetermined limits, or when degraded-air-quality episodes are expected to continue or worsen.
+
+Advisories are issued in order to:
+
+-   inform about degraded air quality
+-   help people make informed choices about reducing their exposure to elevated concentrations of air pollutants
+-   affect emission reduction actions (such as a limit on industrial emissions or wood stove use)
+-   provide vulnerable individuals and the general public with health advice developed by BC health agencies
+
+## About Smoky Skies Bulletins
+
+The Smoky Skies Bulletin is a special type of public advisory to communicate the rapidly changing nature of wildfire smoke. It is issued when areas of the province are being impacted or have reasonable potential to be impacted by wildfire smoke within 24 to 48 hours. These bulletins are based on available pollutant concentrations information, satellite information, smoke forecast models and visual observations, and are not intended to manage local emission sources.

@@ -1,5 +1,20 @@
 ---
-title: "About"
+title: "Measuring air quality"
 ---
 
-About this site
+An example of a second page on the site, to demo the nav bar
+
+
+Air quality monitoring in B.C. is conducted by the provincial government, Metro Vancouver, and industry (where required by permit) in cooperation with Environment Canada and regional districts.
+
+The province uses a number of methods to measure and monitor air quality, including permanent monitoring stations in communities, mobile instrumentation (e.g. on a truck or airplane), and industrial stack monitoring.
+
+There are approximately 150 air quality monitoring stations (100 continuous, 50 non-continuous) throughout B.C. Metro Vancouver air quality staff operate approximately 20 of these continuous stations. The 80 continuous stations in the remainder of the province are run and maintained by a combination of Ministry of Environment (MOE) and industry (permittee) staff.
+
+In addition, there are approximately 20 industrial facilities across the province that continuously monitor air pollutants that are emitted directly from their facilities (i.e. in the stacks). There are a further 80 industrial facilities that perform yearly or quarterly sampling on emissions from their stacks, as required by their permit to operate.
+
+## How we collect & measure data
+
+Monitoring stations measure the presence of contaminants in the air, such as carbon monoxide (CO), nitrogen dioxide (NO2), ozone (O3), particulate matter (PM2.5 and PM10), sulphur dioxide (SO2), and hydrogen sulphide (H2S). The data are reported as raw parameters, and are also used to calculate the Air Quality Health Index.
+
+Contaminants are measured in one of three ways: continuous monitoring (real-time, automated), non-continuous monitoring (discrete, manual) or mobile monitors.
